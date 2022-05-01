@@ -42,7 +42,7 @@ body{
 }
 
 .paint {
-    background-color: grey;
+    background-color: rgb(139, 172, 177);
     border: 1px solid hsl(181, 53.91%, 82.76%)
 }
 

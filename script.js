@@ -11,10 +11,9 @@ createGrid = () => {
  }
  createGrid();
 
- const pixel = document.querySelector('pixel')
- paintGrid = () => {
-    pixel.addEventListener('mouseover',function(){
-        pixel.style.backgroundColor = 'grey';
-    })
-}
+ const pixel = document.querySelector("div");
+ pixel.addEventListener("mouseover", function(event) {
+   event.target.classList.replace("pixel", "paint");
+ });
+
 
