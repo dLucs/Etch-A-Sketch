@@ -58,4 +58,17 @@ h1 {
     20px 20px 0px hsla(233.33, 12%, 14.71%, 0.219),
     24px 24px 0px hsla(0, 0%, 63.92%, 0.158);
     }
-    
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+  
+}
+
+.colors button {
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+}

@@ -2,6 +2,7 @@ const grid = document.querySelector('.gridContainer');
 const input = document.querySelector('#size');
 const resetButton = document.querySelector('.reset');
 const pixel = document.querySelector("div");
+const red = document.querySelector("#red");
 
 //Create basic 16x16 grid
 createGrid = () => {
